@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  dashlet:
+    build:
+      context: .
+    image: matefarkas/time-dashlet
+    ports:
+      - 8080:8080

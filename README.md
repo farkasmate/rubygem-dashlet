@@ -1,4 +1,4 @@
-# time_dashlet
+# Time Dashlet
 
 Time Dashlet to show current time in UTC.
 
@@ -6,4 +6,10 @@ Time Dashlet to show current time in UTC.
 
 ```
 bundle exec unicorn
+```
+
+## Run within Docker
+
+```
+docker-compose up --build
 ```
