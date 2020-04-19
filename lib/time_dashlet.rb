@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'time_dashlet/version'
+require 'time_dashlet/server'
 
 module TimeDashlet
-  class Error < StandardError; end
-  # Your code goes here...
+  Server.run!
 end
