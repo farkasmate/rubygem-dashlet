@@ -2,16 +2,16 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'time_dashlet/version'
+require 'dashlet/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'time_dashlet'
-  spec.version       = TimeDashlet::VERSION
+  spec.name          = 'dashlet'
+  spec.version       = Dashlet::VERSION
   spec.authors       = ['Mate Farkas']
   spec.email         = ['mate.farkas@sch.hu']
 
   spec.summary       = 'Show current time in UTC'
-  spec.homepage      = 'https://github.com/farkasmate/rubygem-time_dashlet'
+  spec.homepage      = 'https://github.com/farkasmate/rubygem-dashlet'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

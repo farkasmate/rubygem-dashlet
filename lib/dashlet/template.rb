@@ -2,7 +2,7 @@
 
 require 'json'
 
-module TimeDashlet
+module Dashlet
   class Template
     def self.render(title, message)
       {

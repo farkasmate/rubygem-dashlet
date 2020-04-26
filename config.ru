@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-require 'time_dashlet/server'
+require 'dashlet/server'
 
-run TimeDashlet::Server
+run Dashlet::Server

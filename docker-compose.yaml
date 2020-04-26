@@ -4,6 +4,6 @@ services:
   dashlet:
     build:
       context: .
-    image: matefarkas/time-dashlet
+    image: matefarkas/dashlet-server
     ports:
       - 8080:8080

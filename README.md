@@ -1,6 +1,6 @@
-# Time Dashlet
+# Dashlet
 
-Time Dashlet to show current time in UTC.
+Dashlet server.
 
 ## Run
 

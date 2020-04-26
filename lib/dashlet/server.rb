@@ -2,12 +2,12 @@
 
 require 'sinatra/base'
 
-require 'time_dashlet/template'
+require 'dashlet/template'
 
-module TimeDashlet
+module Dashlet
   class Server < Sinatra::Base
     get '/' do
-      Template.render('Current time', Time.now.utc)
+      Template.render('DASHLET', 'Hello World!')
     end
   end
 end
