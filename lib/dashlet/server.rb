@@ -15,6 +15,7 @@ module Dashlet
       Web.render do
         <<~CONTENT
           <div id="dashlet">
+            <input type="text" id="url" value="https://indeed.sch.bme.hu/time/">
             <button type="button" onclick="loadDashlet()">Refresh</button>
           </div>
         CONTENT

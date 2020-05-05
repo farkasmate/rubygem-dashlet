@@ -45,7 +45,7 @@ module Dashlet
                   document.getElementById("dashlet").innerHTML = card(JSON.parse(this.responseText));
                 }
               };
-              req.open("GET","https://indeed.sch.bme.hu/time/",false);
+              req.open("GET",document.getElementById('url').value,false);
               req.send();
             }
 
