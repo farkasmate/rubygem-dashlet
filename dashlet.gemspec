@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Mate Farkas']
   spec.email         = ['mate.farkas@sch.hu']
 
-  spec.summary       = 'Show current time in UTC'
+  spec.summary       = 'Server side for https://github.com/farkasmate/dash'
   spec.homepage      = 'https://github.com/farkasmate/rubygem-dashlet'
 
   # Specify which files should be added to the gem when it is released.
